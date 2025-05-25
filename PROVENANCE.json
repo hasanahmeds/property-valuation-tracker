@@ -1,0 +1,227 @@
+{
+  "number": 9,
+  "title": "Property Valuation Tracker",
+  "slug": "property-valuation-tracker",
+  "start": "2025-05-25",
+  "end": "2025-06-11",
+  "repo": "noumanhafeez/production-ml-pipeline-house-prices",
+  "branch": "main",
+  "license": "MIT",
+  "note": "House-price MLOps pipeline; dataset availability and model quality are upstream concerns.",
+  "sha": "472cf654615a327301121519def50cb3e7c783c6",
+  "archive_sha256": "23031f4f3def265a34e14192c0f64ec9c74d5e5e7c03d704d73667042c17cd37",
+  "imported_at": "2026-10-28T21:31:31.894833+00:00",
+  "history": "Reconstructed import history; dates are not dates of original development.",
+  "upstream_files": {
+    "upstream/.dockerignore": {
+      "sha256": "b243a2322300f24131145228185f0d684af5144e6d11390dd4403f9fa2daac82",
+      "mode": "100644",
+      "bytes": 66
+    },
+    "upstream/.gitattributes": {
+      "sha256": "4c118ae164b2bd3939658010449dde1d9e675bdd69b9ea1398c094faba6ae445",
+      "mode": "100644",
+      "bytes": 31
+    },
+    "upstream/.github/workflows/ci.yml": {
+      "sha256": "fc8ad0dacebbd6ec4fd37816857db98c383a568690e93b50204412399b8c90dd",
+      "mode": "100644",
+      "bytes": 682
+    },
+    "upstream/.gitignore": {
+      "sha256": "629cd91490422aa2d24382b53c34a45d14b85e7ba3b1d96195b3d3f603c06e60",
+      "mode": "100644",
+      "bytes": 10
+    },
+    "upstream/.idea/.gitignore": {
+      "sha256": "0a5548b173aac0ef943bbb3af850d676f7b651ddedb9f8d7f06735bc2809b3db",
+      "mode": "100644",
+      "bytes": 176
+    },
+    "upstream/.idea/inspectionProfiles/profiles_settings.xml": {
+      "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46",
+      "mode": "100644",
+      "bytes": 174
+    },
+    "upstream/.idea/misc.xml": {
+      "sha256": "065989cc43a042e33a25b07c761a6270a22fbe5fa2d370440b2099144633b14a",
+      "mode": "100644",
+      "bytes": 186
+    },
+    "upstream/.idea/modules.xml": {
+      "sha256": "2aa0fab3d51779ca2f0c23c134f4345761e488f40f2a18c564b6b27b80c71335",
+      "mode": "100644",
+      "bytes": 322
+    },
+    "upstream/.idea/production-ml-pipeline-house-prices.iml": {
+      "sha256": "a362a25efbb5e6a1c2027a06c67b095ba45145a2b3ef4f399aa8710784b2d7e8",
+      "mode": "100644",
+      "bytes": 318
+    },
+    "upstream/.idea/vcs.xml": {
+      "sha256": "6323e12648862a0a96fc0d7877672817d6cd91e2c2a3c3d78f1090db23c6e88e",
+      "mode": "100644",
+      "bytes": 167
+    },
+    "upstream/Dockerfile": {
+      "sha256": "7ff492a2f5f64bfd59bf538d822444c6119ba359a5a13d6f70bb13495aa02381",
+      "mode": "100644",
+      "bytes": 315
+    },
+    "upstream/LICENSE": {
+      "sha256": "0faf4153a662374892687f07c4d06ffd592cd3befb691dc6f69b82c6fd06ebe9",
+      "mode": "100644",
+      "bytes": 1070
+    },
+    "upstream/README.md": {
+      "sha256": "e477af17d56802f059267f2e229d621d90e8961b4647f5872b249ef23b908883",
+      "mode": "100644",
+      "bytes": 5937
+    },
+    "upstream/app.py": {
+      "sha256": "72dc51f0ed1a95cab2e5df9612490c726cb4dd0e8ff62e1ede818356bbf50abe",
+      "mode": "100644",
+      "bytes": 1587
+    },
+    "upstream/artifacts/house_price_pipeline.pkl": {
+      "sha256": "0865dd6fa877b7590d81700c65cf52a426a8c07537bd4b3cf6308a2e061a8d64",
+      "mode": "100644",
+      "bytes": 5459
+    },
+    "upstream/artifacts/metrics.csv": {
+      "sha256": "6fdc1e2ea83b902953a092b3d7f107cdbcbb14f29000a878036d9e010408d57a",
+      "mode": "100644",
+      "bytes": 103
+    },
+    "upstream/artifacts/prediction_vs_actual.png": {
+      "sha256": "bcebb7f4844d043262813c9ab5c94e65a2403e8d95f42a052965d8591fb52964",
+      "mode": "100644",
+      "bytes": 32177
+    },
+    "upstream/assets/house_demo.gif": {
+      "sha256": "86583766627a0e6fee06aae89ef0794002daf515a9bd2be43ea981a7a671e17d",
+      "mode": "100644",
+      "bytes": 930071
+    },
+    "upstream/config.yaml": {
+      "sha256": "cc1e6e0b7b689c2205758d5880618ba1cef19ae7835cc4d702ac4d3e1f45fc72",
+      "mode": "100644",
+      "bytes": 426
+    },
+    "upstream/data/housing.csv": {
+      "sha256": "53c664e09e63570198f4197daa9d6e96b5fea6488d4a1b9259d192df2ce51ccf",
+      "mode": "100644",
+      "bytes": 29435
+    },
+    "upstream/main.py": {
+      "sha256": "d762683843e6df03c5adf9b56b403953a5a82506981427fffb418f843e6e9e3b",
+      "mode": "100644",
+      "bytes": 439
+    },
+    "upstream/models/train.py": {
+      "sha256": "8490e6d177f78e3ad9bb1dad85004b6ade3775026fccf7d422bc52075091ae0e",
+      "mode": "100644",
+      "bytes": 3338
+    },
+    "upstream/notebook/eda.ipynb": {
+      "sha256": "ad2ae336498eedf5e736f57a894eadf2d661054d747b1da718e60011742c7999",
+      "mode": "100644",
+      "bytes": 484798
+    },
+    "upstream/requirements.txt": {
+      "sha256": "c2e5ed014347b232e197c7b8e80d141501afdb8b2495da10f46fdb99c350e20e",
+      "mode": "100644",
+      "bytes": 117
+    },
+    "upstream/src/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644",
+      "bytes": 0
+    },
+    "upstream/src/config.py": {
+      "sha256": "6ad0d6742808452edad40dbe9ba161d0a77041d08adf3d4ff7344c742d36bee0",
+      "mode": "100644",
+      "bytes": 881
+    },
+    "upstream/src/data_loader.py": {
+      "sha256": "8cf2bab83109e8391d318d7fde34ecda751cd4fbbe78ffef49b8a7e656945938",
+      "mode": "100644",
+      "bytes": 596
+    },
+    "upstream/src/data_preprocessing.py": {
+      "sha256": "d9b1d6c4067bb0fc3b443b1039072cf929b0b01e2858d05e7cc916b33f5d32df",
+      "mode": "100644",
+      "bytes": 1676
+    },
+    "upstream/src/data_splitter.py": {
+      "sha256": "8ba0bf9d7f716fbe2b32d5424b543863c75a091cbc5865c916a9018188e87758",
+      "mode": "100644",
+      "bytes": 1573
+    },
+    "upstream/src/get_prediction.py": {
+      "sha256": "0ada098dc768bf37ff7b99e067c5c089052441f2ea0143119c8f43d53b69b752",
+      "mode": "100644",
+      "bytes": 1396
+    },
+    "upstream/src/pipeline.py": {
+      "sha256": "e92057bf08959102102df7c793acdb4e53e25e130b38943920ccb089bdad70f6",
+      "mode": "100644",
+      "bytes": 1520
+    },
+    "upstream/src/report.py": {
+      "sha256": "50e894f6d348a9ab72450bcdd0864843544f73e476cd672ed0ec4f732b0e0f08",
+      "mode": "100644",
+      "bytes": 985
+    },
+    "upstream/src/utils/logger.py": {
+      "sha256": "e6f31b5cf3445e2996e73d041498b0498fe208d53edee5bbde8685ef94044563",
+      "mode": "100644",
+      "bytes": 725
+    },
+    "upstream/templates/index.html": {
+      "sha256": "42a47cc7ccea22d3f23d195e98e015243d912145b049bab628a3da325f55ca24",
+      "mode": "100644",
+      "bytes": 5323
+    },
+    "upstream/templates/result.html": {
+      "sha256": "c70b2421582ed550487e05d268edfc0451d290e653644584c85611acd08fc6b7",
+      "mode": "100644",
+      "bytes": 4527
+    }
+  },
+  "excluded_git_metadata": [],
+  "history_repair": {
+    "pattern": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "approved_calendar": true,
+    "seed": 20251028,
+    "previous_main": "e587024c2de6d36fccdf9e2c196ec2aedd6af817",
+    "daily_counts": {
+      "2025-05-25": 3,
+      "2025-05-26": 3,
+      "2025-05-27": 5,
+      "2025-05-28": 3,
+      "2025-05-29": 4,
+      "2025-05-30": 0,
+      "2025-05-31": 0,
+      "2025-06-01": 1,
+      "2025-06-02": 4,
+      "2025-06-03": 0,
+      "2025-06-04": 0,
+      "2025-06-05": 1,
+      "2025-06-06": 4,
+      "2025-06-07": 0,
+      "2025-06-08": 2,
+      "2025-06-09": 3,
+      "2025-06-10": 3,
+      "2025-06-11": 0
+    },
+    "description": "Reconstructed import timestamps; not original development dates."
+  }
+}

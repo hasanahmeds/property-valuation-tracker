@@ -1,0 +1,271 @@
+[
+  {
+    "timestamp": "2025-05-25T16:44:28+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 1/36",
+    "prefix_bytes": {
+      "upstream/LICENSE": 1070
+    }
+  },
+  {
+    "timestamp": "2025-05-25T18:15:49+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 2/36",
+    "prefix_bytes": {
+      "upstream/.dockerignore": 66
+    }
+  },
+  {
+    "timestamp": "2025-05-25T22:51:06+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 3/36",
+    "prefix_bytes": {
+      "upstream/.github/workflows/ci.yml": 682,
+      "upstream/config.yaml": 426
+    }
+  },
+  {
+    "timestamp": "2025-05-26T16:10:46+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 4/36",
+    "prefix_bytes": {
+      "upstream/Dockerfile": 315,
+      "upstream/requirements.txt": 117
+    }
+  },
+  {
+    "timestamp": "2025-05-26T18:12:43+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 5/36",
+    "prefix_bytes": {
+      "upstream/src/config.py": 881
+    }
+  },
+  {
+    "timestamp": "2025-05-26T20:57:17+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 6/36",
+    "prefix_bytes": {
+      "upstream/data/housing.csv": 29435,
+      "upstream/src/data_preprocessing.py": 1391
+    }
+  },
+  {
+    "timestamp": "2025-05-27T12:02:03+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 7/36",
+    "prefix_bytes": {
+      "upstream/src/data_preprocessing.py": 1676,
+      "upstream/src/utils/logger.py": 725
+    }
+  },
+  {
+    "timestamp": "2025-05-27T18:19:49+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 8/36",
+    "prefix_bytes": {
+      "upstream/.gitattributes": 31,
+      "upstream/.gitignore": 10
+    }
+  },
+  {
+    "timestamp": "2025-05-27T19:01:34+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 9/36",
+    "prefix_bytes": {
+      "upstream/.idea/.gitignore": 176,
+      "upstream/.idea/inspectionProfiles/profiles_settings.xml": 174
+    }
+  },
+  {
+    "timestamp": "2025-05-27T20:51:58+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 10/36",
+    "prefix_bytes": {
+      "upstream/.idea/misc.xml": 186
+    }
+  },
+  {
+    "timestamp": "2025-05-27T21:56:47+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 11/36",
+    "prefix_bytes": {
+      "upstream/.idea/modules.xml": 322,
+      "upstream/.idea/production-ml-pipeline-house-prices.iml": 318
+    }
+  },
+  {
+    "timestamp": "2025-05-28T12:44:22+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 12/36",
+    "prefix_bytes": {
+      "upstream/.idea/vcs.xml": 167,
+      "upstream/artifacts/house_price_pipeline.pkl": 5459
+    }
+  },
+  {
+    "timestamp": "2025-05-28T15:06:42+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 13/36",
+    "prefix_bytes": {
+      "upstream/artifacts/metrics.csv": 103,
+      "upstream/artifacts/prediction_vs_actual.png": 32177
+    }
+  },
+  {
+    "timestamp": "2025-05-28T15:08:09+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 14/36",
+    "prefix_bytes": {
+      "upstream/assets/house_demo.gif": 930071,
+      "upstream/main.py": 439
+    }
+  },
+  {
+    "timestamp": "2025-05-29T12:40:42+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 15/36",
+    "prefix_bytes": {
+      "upstream/models/train.py": 2538
+    }
+  },
+  {
+    "timestamp": "2025-05-29T15:51:08+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 16/36",
+    "prefix_bytes": {
+      "upstream/models/train.py": 3338,
+      "upstream/notebook/eda.ipynb": 1158
+    }
+  },
+  {
+    "timestamp": "2025-05-29T20:00:28+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 17/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 3962
+    }
+  },
+  {
+    "timestamp": "2025-05-29T22:31:28+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 18/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 6553
+    }
+  },
+  {
+    "timestamp": "2025-06-01T15:41:20+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 19/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 7753
+    }
+  },
+  {
+    "timestamp": "2025-06-02T13:16:42+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 20/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 10259
+    }
+  },
+  {
+    "timestamp": "2025-06-02T14:07:33+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 21/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 12630
+    }
+  },
+  {
+    "timestamp": "2025-06-02T14:24:07+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 22/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 14626
+    }
+  },
+  {
+    "timestamp": "2025-06-02T15:32:44+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 23/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 102317
+    }
+  },
+  {
+    "timestamp": "2025-06-05T19:24:19+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 24/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 201919
+    }
+  },
+  {
+    "timestamp": "2025-06-06T12:18:43+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 25/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 260228
+    }
+  },
+  {
+    "timestamp": "2025-06-06T18:03:24+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 26/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 263430
+    }
+  },
+  {
+    "timestamp": "2025-06-06T19:23:15+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 27/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 265762
+    }
+  },
+  {
+    "timestamp": "2025-06-06T22:43:11+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 28/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 266628
+    }
+  },
+  {
+    "timestamp": "2025-06-08T18:09:41+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 29/36",
+    "prefix_bytes": {
+      "upstream/notebook/eda.ipynb": 484798
+    }
+  },
+  {
+    "timestamp": "2025-06-08T18:18:19+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 30/36",
+    "prefix_bytes": {
+      "upstream/README.md": 5937,
+      "upstream/src/__init__.py": 0
+    }
+  },
+  {
+    "timestamp": "2025-06-09T15:51:00+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 31/36",
+    "prefix_bytes": {
+      "upstream/src/data_loader.py": 596,
+      "upstream/src/data_splitter.py": 1355
+    }
+  },
+  {
+    "timestamp": "2025-06-09T17:35:29+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 32/36",
+    "prefix_bytes": {
+      "upstream/src/data_splitter.py": 1573,
+      "upstream/src/get_prediction.py": 1080
+    }
+  },
+  {
+    "timestamp": "2025-06-09T21:04:52+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 33/36",
+    "prefix_bytes": {
+      "upstream/src/get_prediction.py": 1396,
+      "upstream/src/pipeline.py": 1248
+    }
+  },
+  {
+    "timestamp": "2025-06-10T13:19:13+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 34/36",
+    "prefix_bytes": {
+      "upstream/src/pipeline.py": 1520,
+      "upstream/src/report.py": 985
+    }
+  },
+  {
+    "timestamp": "2025-06-10T18:14:54+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 35/36",
+    "prefix_bytes": {
+      "upstream/templates/index.html": 5323,
+      "upstream/templates/result.html": 4527
+    }
+  },
+  {
+    "timestamp": "2025-06-10T21:28:59+00:00",
+    "message": "chore(import): reconstruct noumanhafeez/production-ml-pipeline-house-prices slice 36/36",
+    "prefix_bytes": {
+      "upstream/app.py": 1587
+    }
+  }
+]
