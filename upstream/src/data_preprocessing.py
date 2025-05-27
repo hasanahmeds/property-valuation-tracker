@@ -38,3 +38,13 @@ def preprocess() -> ColumnTransformer:
             remainder='passthrough'  # keep numeric columns unchanged
         )
 
+        logger.info("Preprocessor created successfully.")
+
+        return preprocessor
+
+    except KeyError as e:
+        logger.error(f"Column not found in DataFrame: {e}")
+        raise
+    except Exception as e:
+        logger.error(f"Error during preprocessing: {e}")
+        raise
