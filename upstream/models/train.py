@@ -78,3 +78,28 @@ def train(config):
 
             # Log metrics
             mlflow.log_metric("r2", r2)
+            mlflow.log_metric("mae", mae)
+            mlflow.log_metric("rmse", rmse)
+
+
+            # Log model
+            logger.info("Logging model to MLflow...")
+            mlflow.sklearn.log_model(
+                sk_model=pipeline,
+                artifact_path="model",
+                registered_model_name=config.model.name
+            )
+
+            # Save model locally
+            model_path = Path(config.artifacts.model_path)
+            model_path.parent.mkdir(parents=True, exist_ok=True)
+            joblib.dump(pipeline, model_path)
+
+            logger.info(f"Model saved at {model_path}")
+            logger.info(f"R2: {r2:.4f}, MAE: {mae:.4f}, RMSE: {rmse:.4f}")
+
+            return pipeline
+
+    except Exception as e:
+        logger.error(f"Training failed: {e}")
+        raise
