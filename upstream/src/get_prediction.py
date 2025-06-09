@@ -38,3 +38,19 @@ def predict():
         output_path = Path("data/predictions.csv")
         data["Predicted_Price"] = predictions
         data.to_csv(output_path, index=False)
+
+        logger.info(f"Predictions saved at: {output_path}")
+
+        return predictions
+
+    except FileNotFoundError as e:
+        logger.error(f"File not found: {e}")
+        raise
+
+    except Exception as e:
+        logger.error(f"Prediction failed: {e}")
+        raise
+
+
+if __name__ == "__main__":
+    predict()
