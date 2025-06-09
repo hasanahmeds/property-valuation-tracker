@@ -38,3 +38,9 @@ def split_data(df: pd.DataFrame, target_col: str, test_size: float, random_state
 
         return X_train, X_test, y_train, y_test
 
+    except KeyError:
+        logger.error(f"Target column '{target_col}' not found in DataFrame.")
+        raise
+    except Exception as e:
+        logger.error(f"Unexpected error during data split: {e}")
+        raise
