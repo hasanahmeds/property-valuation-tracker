@@ -38,3 +38,14 @@ def create_pipeline(model_name: str, model_params: dict) -> Pipeline:
 
         # Create the full pipeline
         pipeline = Pipeline(steps=[
+            ("preprocessor", preprocessor),
+            ("regressor", model)
+        ])
+
+        logger.info(f"Pipeline created with params: {params}")
+
+        return pipeline
+
+    except Exception as e:
+        logger.error(f"Error creating pipeline: {e}")
+        raise
